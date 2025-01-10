@@ -1,0 +1,3 @@
+[submodule "packages/catalyst-pluginizr"]
+	path = packages/catalyst-pluginizr
+	url = https://github.com/thebigrick/catalyst-pluginizr.git
