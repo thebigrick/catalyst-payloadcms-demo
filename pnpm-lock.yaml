@@ -508,6 +508,9 @@ importers:
       next:
         specifier: ~15
         version: 15.1.0(@babel/core@7.24.7)(@playwright/test@1.49.1)(babel-plugin-macros@3.1.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4)
+      next-intl:
+        specifier: ~3
+        version: 3.26.1(next@15.1.0(@playwright/test@1.49.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(react@19.0.0)
       payload:
         specifier: ^3.16.0
         version: 3.16.0(bufferutil@4.0.9)(graphql@16.10.0)(monaco-editor@0.52.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.2)(utf-8-validate@6.0.5)
@@ -529,6 +532,9 @@ importers:
       tailwind-variants:
         specifier: ^0.3.0
         version: 0.3.0(tailwindcss@3.4.16)
+      uuid:
+        specifier: ^11.0.5
+        version: 11.0.5
     devDependencies:
       '@types/node':
         specifier: ^20.17.6
@@ -7360,6 +7366,10 @@ packages:
 
   uuid@11.0.3:
     resolution: {integrity: sha512-d0z310fCWv5dJwnX1Y/MncBAqGMKEzlBb1AOf7z9K8ALnd0utBX/msg/fA0+sbyN1ihbMsLhrBlnl1ak7Wa0rg==}
+    hasBin: true
+
+  uuid@11.0.5:
+    resolution: {integrity: sha512-508e6IcKLrhxKdBbcA2b4KQZlLVp2+J5UwQ6F7Drckkc5N9ZJwFa4TgWtsww9UG8fGHbm6gbV19TdM5pQ4GaIA==}
     hasBin: true
 
   uuid@9.0.0:
@@ -15171,6 +15181,8 @@ snapshots:
   uuid@10.0.0: {}
 
   uuid@11.0.3: {}
+
+  uuid@11.0.5: {}
 
   uuid@9.0.0: {}
 
